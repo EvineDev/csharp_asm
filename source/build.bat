@@ -8,7 +8,7 @@ pushd build
 :: Copy source into build. Will be problematic if you want to work in visual studio.
 robocopy %Source_Dir% . -E > nul
 
-ml64 /nologo /Zi /c lib.asm && link /nologo /debug /NOENTRY /DLL /DEF:lib.def lib.obj && csc /nologo /debug /unsafe main.cs && main.exe
+ml64 /nologo /Zi /c lib.asm && link /nologo /debug /NOENTRY /DLL lib.obj && csc /nologo /debug /unsafe main.cs && main.exe
 
 popd
 popd

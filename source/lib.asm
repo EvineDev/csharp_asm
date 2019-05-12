@@ -1,11 +1,11 @@
 .data
 .code
 
-DoNothing proc
+DoNothing proc EXPORT
 	ret
 DoNothing endp
 
-ModifyByPointer proc
+ModifyByPointer proc EXPORT
 	mov edx, 10
 	add [rcx], edx
 	ret
