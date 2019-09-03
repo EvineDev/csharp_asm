@@ -37,4 +37,5 @@ The return value is passed via the `rax` register.
 * [Compiler Explorer](https://godbolt.org) C#, C++ etc. Compiler to assembly
 * [x64 assembly tutorial](https://www.youtube.com/watch?v=rxsBghsrvpI) Beginner focused tutorial
 * [Intel architecture guide](https://software.intel.com/en-us/articles/intel-sdm) **The** Cpu Manual. Thousands of pages on every aspect of the cpu.
+* [Programming an x64 compiler from scratch](https://www.youtube.com/watch?v=N9B2KeAWXgE)
 
