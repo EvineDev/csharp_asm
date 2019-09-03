@@ -51,6 +51,4 @@ ModifyByPointer proc EXPORT
 	ret
 ModifyByPointer endp
 
-
-
 end

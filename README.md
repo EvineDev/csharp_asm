@@ -25,7 +25,7 @@ To get line by line stepping in the assembly you need to enable `Mixed` `Debugge
 
 `r12` `r13` `r14` `r15`
 
-These can also be refereed by smaller segments, eg: `rax` 64bit, `eax` 32bit, `ax` 16 bit, `al` 8bit.
+These can also be referred by smaller segments, eg: `rax` 64bit, `eax` 32bit, `ax` 16 bit, `al` 8bit.
 
 ## **Calling Convensions**
 The first 4 Arguments are passed in by these registers: `rcx` `rdx` `r8` `r9`
